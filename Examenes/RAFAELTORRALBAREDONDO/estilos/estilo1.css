@@ -1,0 +1,133 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: brown;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(34, 33, 25);
+  }
+  
+  .active {
+    background-color: #024bd3;
+  }
+
+  #transicionH1 {
+      font-size: 35px;
+    transition: font-size;
+  }
+  #transicionH1:hover {
+    font-size: 70px;
+    color: red;
+  }
+  #cajaAzul {
+    background-color:    blue;  color:  #ffffff;
+
+    height:  200px;  width:  750px;  
+  }
+
+  .enlace:link {
+    color:#0a0c0c; 
+    font-weight:normal; 
+    font-size:18px; 
+    text-decoration:none;
+    font-family: verdana, arial, helvetica, sans-serif;
+  }
+
+  .enlace:visited {
+    color:#5CB2B3;
+    font-weight:normal; font-size:18px; text-decoration:none;
+    font-family:verdana,   arial,  helvetica,  sans-serif;
+  }
+
+  .enlace:hover {
+    color:#5CB2B3;
+    cursor:hand;  
+    font-weight:normal;  
+    font-size:24px;   
+    text-decoration:none;
+    font-family:verdana, arial, helvetica, sans-serif;
+  }
+
+  .enlace.active {
+    color:#5CB2B3;   
+    font-weight:    normal;  
+    font-size:  18px; 
+    text-decoration:    none;
+    font-family:   verdana,  arial,  helvetica,  sans-serif;
+    }
+
+    #caja1   { 
+        float: left;
+        width:70;
+        height:70;
+        margin-left: 10%;
+    }
+    #caja2  { 
+        float: right;
+        width:30;
+        height:30;
+        margin-right: 10%;
+    }
+    #caja3   { 
+        float: left;
+        width:30;
+        height:30;
+        margin-left: 10%;
+    }
+    #caja4  { 
+        float: right;
+        width:30;
+        height:30;
+        margin-right: 10%;
+    }
+
+    img{
+        width: 300px;
+        height: 300px;
+    }
+    #cajaformulario {
+        float: auto;
+        box-sizing: border-box;
+        width: 550px;
+        height: 350px;
+        padding: 10px;  
+        border: 10px solid rgb(102, 102, 202);
+      }
+      h3 {
+        width: 160px;
+        background-color: rgba(141, 141, 16, 0.5);
+      }
+
+      #cajaVideo1 {
+        margin-left: 1%;
+        float: left;
+        box-sizing: border-box;
+        width: 620px;
+        height: 350px;
+        padding: 10px;  
+        border: 10px solid rgb(102, 102, 202);
+      }
+      #cajaVideo2 {
+          margin-right: 1%;
+        box-sizing: border-box;
+        width: 620px;
+        height: 350px;
+        padding: 10px;  
+        border: 10px solid rgb(102, 102, 202);
+        float: right;
+      }
